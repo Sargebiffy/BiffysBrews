@@ -1,0 +1,192 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TYP",
+				"abbreviation": "TYP",
+				"full": "The Yokai Patron",
+				"version": "1.0",
+				"url": "https://homebrewery.naturalcrit.com/share/_Y4ukPTQfNS6",
+				"authors": [
+					"Sargebiffy, Nighttail"
+				],
+				"convertedBy": [
+					"Sargebiffy"
+				],
+				"color": "acfafa"
+			}
+		],
+		"dateAdded": 1578188666,
+		"dateLastModified": 1580933076,
+		"unlisted": true
+	},
+	"subclass": [
+		{
+			"name": "The Yokai",
+			"source": "TYP",
+			"subclassSpells": [
+				"goodberry",
+				"disguise self",
+				"blur",
+				"calm emotions",
+				"pass without trace",
+				"catnap",
+				"greater invisibility",
+				"compulsion",
+				"animate objects",
+				"bigby's hand"
+			],
+			"subclassFeatures": [
+				"Soothing Whispers|Warlock||Yokai|TYP|1",
+				"Yokai Balance|Warlock||Yokai|TYP|6",
+				"Spirit Ward|Warlock||Yokai|TYP|10",
+				"Summon Guardian Spirit|Warlock||Yokai|TYP|14"
+			],
+			"shortName": "Yokai",
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"disguise self",
+							"goodberry"
+						],
+						"s2": [
+							"blur",
+							"calm emotions"
+						],
+						"s3": [
+							"pass without trace",
+							"catnap"
+						],
+						"s4": [
+							"greater invisibility",
+							"compulsion"
+						],
+						"s5": [
+							"animate objects",
+							"bigby's hand"
+						]
+					}
+				}
+			],
+			"className": "Warlock",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "The Yokai",
+			"source": "TYP",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Yokai",
+			"subclassSource": "TYP",
+			"level": 1,
+			"entries": [
+				"You have forged a pact with a yokai spirit. These wandering spirits commonly take the form of animals, humanoids or sometimes a combination of the two. Regardless of their chosen guise they will very rarely show anyone their true form and will generally do their utmost to hide it. The nature of a yokai will usually depend on it's conception and can vary from malevolent, mischievous to friendly.",
+				{
+					"tTYPe": "entries",
+					"name": "Expanded Spell List",
+					"entries": [
+						"The Yokai patron lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+						{
+							"tTYPe": "table",
+							"caption": "Yokai Expanded Spells",
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1st",
+									"{@spell disguise self}, {@spell goodberry}"
+								],
+								[
+									"2nd",
+									"{@spell blur}, {@spell calm emotions}"
+								],
+								[
+									"3rd",
+									"{@spell pass without trace}, {@spell catnap}"
+								],
+								[
+									"4th",
+									"{@spell greater invisibility}, {@spell compulsion}"
+								],
+								[
+									"5th",
+									"{@spell animate objects}, {@spell bigby's hand}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"tTYPe": "refSubclassFeature",
+					"subclassFeature": "Soothing Whispers|Warlock||Yokai|TYP|1"
+				}
+			]
+		},
+		{
+			"name": "Soothing Whispers",
+			"entries": [
+				"Starting at 1st level, the Yokai's voice whispers to you, soothing your nerves. You gain advantage on all checks to resist being charmed, frightened and to maintain concentration on a spell."
+			],
+			"source": "TYP",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Yokai",
+			"subclassSource": "TYP",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"name": "Yokai Balance",
+			"source": "TYP",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Yokai",
+			"subclassSource": "TYP",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level you begin to learn to balance the negative and positve sides of the spirits. You may use a bonus action to distract a creature who can see or hear you. You gain advantage on your next attack against this creature and the creatures next attack against you is made with disadvantage. This effect lasts until the end of your next turn. You can use this feature a number of times equal to your proficency bonus and you gain all your uses back after a long rest."
+			]
+		},
+		{
+			"name": "Spirit Ward",
+			"source": "TYP",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Yokai",
+			"subclassSource": "TYP",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level your patron places a ward against death on you. Once per day you gain the benefit of the Death Ward spell. When the ward is triggered you can use your reaction to fire a beam of vengeful energy at an enemy within 120ft of you, doing 2d10+5 Force damage on a hit. If the attack hits you gain a number of temporary hit points equal to 1d10 + your warlock level both the damage and temporary hit points increase with 1d10 at leve1 17."
+			]
+		},
+		{
+			"name": "Summon Guardian Spirit",
+			"source": "TYP",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Yokai",
+			"subclassSource": "TYP",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you have earned enough of the yokai's favor that you may use an action and expend a spell slot to summon a Guardian Spirit. The guardian appears in an unoccupied space within 60 ft. of you. It has it's own initiative and it's own turns. On your turn, you may issue a command to the guardian (no action required) telling it what to do on it's next turn. If it has no command, it will attack any creature in reach which has attacked it or you. The guardian will persist for up to an hour. Once used, this feature may not be used again until after you complete a long rest."
+			]
+		}
+	]
+}
