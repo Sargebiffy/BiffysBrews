@@ -86,12 +86,12 @@
 			"entries": [
 				"You have forged a pact with a yokai spirit. These wandering spirits commonly take the form of animals, humanoids or sometimes a combination of the two. Regardless of their chosen guise they will very rarely show anyone their true form and will generally do their utmost to hide it. The nature of a yokai will usually depend on it's conception and can vary from malevolent, mischievous to friendly.",
 				{
-					"tTYPe": "entries",
+					"type": "entries",
 					"name": "Expanded Spell List",
 					"entries": [
 						"The Yokai patron lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
 						{
-							"tTYPe": "table",
+							"type": "table",
 							"caption": "Yokai Expanded Spells",
 							"colLabels": [
 								"Spell Level",
@@ -127,7 +127,7 @@
 					]
 				},
 				{
-					"tTYPe": "refSubclassFeature",
+					"type": "refSubclassFeature",
 					"subclassFeature": "Soothing Whispers|Warlock||Yokai|TYP|1"
 				}
 			]
