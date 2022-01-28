@@ -188,10 +188,6 @@
 							]
 						}
 					]
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Soothing Whispers|Warlock||Yokai|YokaiPatron|1"
 				}
 			]
 		},
@@ -218,6 +214,12 @@
 			"subclassShortName": "Yokai",
 			"subclassSource": "YokaiPatron",
 			"level": 6,
+			"time": [
+                	{
+                 	"number": 1,
+                    	"unit": "bonus action"
+                	}
+            		],
 			"header": 2,
 			"entries": [
 				"At 6th level you begin to learn to balance the negative and positve sides of the spirits. You may use a bonus action to distract a creature who can see or hear you. You gain advantage on your next attack against this creature and the creatures next attack against you is made with disadvantage. This effect lasts until the end of your next turn. You can use this feature a number of times equal to your proficency bonus and you gain all your uses back after a long rest."
@@ -232,9 +234,15 @@
 			"subclassShortName": "Yokai",
 			"subclassSource": "YokaiPatron",
 			"level": 10,
+			"time": [
+                	{
+                 	"number": 1,
+                    	"unit": "reaction"
+                	}
+            		],
 			"header": 2,
 			"entries": [
-				"At 10th level your patron places a ward against death on you. Once per day you gain the benefit of the {@spell Death Ward} spell. When the ward is triggered you can use your reaction to fire a beam of vengeful energy at an enemy within 120ft of you, doing {@damage 2d10+5} Force damage on a hit. If the attack hits you gain a number of temporary hit points equal to {1d10 + your warlock level}, both the damage and temporary hit points increase with 1d10 at leve1 17."
+				"At 10th level your patron places a ward against death on you. Once per day you gain the benefit of the {@spell Death Ward} spell. When the ward is triggered you can use your reaction to make a spell attack roll using your spell attack modifier to fire a beam of vengeful energy at an enemy within 120ft of you, doing {@damage 2d10+5} Force damage on a hit. If the attack hits you gain a number of temporary hit points equal to {1d10 + your warlock level}, both the damage and temporary hit points increase with 1d10 at leve1 17."
 			]
 		},
 		{
@@ -247,6 +255,12 @@
 			"subclassSource": "YokaiPatron",
 			"level": 14,
 			"header": 2,
+			"time": [
+                	{
+                 	"number": 1,
+                    	"unit": "action"
+                	}
+            		],
 			"entries": [
 				"At 14th level, you have earned enough of the yokai's favor that you may use an action and expend a spell slot to summon a Guardian Spirit. The guardian appears in an unoccupied space within 60 ft. of you. It has it's own initiative and it's own turns. On your turn, you may issue a command to the guardian (no action required) telling it what to do on it's next turn. If it has no command, it will attack any creature in reach which has attacked it or you. The guardian will persist for up to an hour. Once used, this feature may not be used again until after you complete a long rest."
 			]
