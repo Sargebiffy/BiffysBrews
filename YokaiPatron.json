@@ -9,13 +9,17 @@
 					"Biffy",
 					"Nighttail"
 				],
+				"convertedBy": [
+					"Sargebiffy"
+				],
 				"version": "1.0",
 				"url": "https://homebrewery.naturalcrit.com/share/_Y4ukPTQfNS6",
-				"targetSchema": "1.0.0"
+				"targetSchema": "1.0.0",
+				"color": "f24666"
 			}
 		],
-		"dateAdded": 1567635151,
-		"dateLastModified": 1567635151
+		"dateAdded": 1643375795,
+		"dateLastModified": 1643375795
 	},
 	"subclass": [
 		{
