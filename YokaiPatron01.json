@@ -18,7 +18,7 @@
 			}
 		],
 		"dateAdded": 1643375795,
-		"dateLastModified": 1643410910
+		"dateLastModified": 1643411935
 	},
 	"subclass": [
 		{
@@ -242,7 +242,7 @@
             		],
 			"header": 2,
 			"entries": [
-				"At 10th level your patron places a ward against death on you. Once per day you gain the benefit of the {@spell Death Ward} spell. When the ward is triggered you can use your reaction to make a spell attack roll using your spell attack modifier to fire a beam of vengeful energy at an enemy within 120ft of you, doing {@damage 2d10+5} Force damage on a hit. If the attack hits you gain a number of temporary hit points equal to {1d10 + your warlock level}, both the damage and temporary hit points increase with 1d10 at leve1 17."
+				"At 10th level your patron places a ward against death on you. Once per day you gain the benefit of the {@spell Death Ward} spell. When the ward is triggered you can use your reaction to make a spell attack roll using your spell attack modifier to fire a beam of vengeful energy at an enemy within 120ft of you, doing {@damage 2d10+5} Force damage on a hit. If the attack hits you gain a number of temporary hit points equal to {@dice 1d10} plus your warlock level, both the damage and temporary hit points increase with 1d10 at leve1 17."
 			]
 		},
 		{
