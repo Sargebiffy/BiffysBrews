@@ -18,7 +18,7 @@
 			}
 		],
 		"dateAdded": 1643375795,
-		"dateLastModified": 1643478694
+		"dateLastModified": 1643479005
 	},
 	"subclass": [
 		{
@@ -262,7 +262,7 @@
                 	}
             		],
 			"entries": [
-				"At 14th level, you have earned enough of the yokai's favor that you may use an action and expend a spell slot to summon a {@creature Guardian Spirit|TYP}. The guardian appears in an unoccupied space within 60 ft. of you. It has it's own initiative and it's own turns. On your turn, you may issue a command to the guardian (no action required) telling it what to do on it's next turn. If it has no command, it will attack any creature in reach which has attacked it or you. The guardian will persist for up to an hour. Once used, this feature may not be used again until after you complete a long rest."
+				"At 14th level, you have earned enough of the yokai's favor that you may use an action and expend a spell slot to summon a {@i Guardian Spirit}. The guardian appears in an unoccupied space within 60 ft. of you. It has it's own initiative and it's own turns. On your turn, you may issue a command to the guardian (no action required) telling it what to do on it's next turn. If it has no command, it will attack any creature in reach which has attacked it or you. The guardian will persist for up to an hour. Once used, this feature may not be used again until after you complete a long rest."
 			]
 		}
 	],
