@@ -12,7 +12,7 @@
 				"convertedBy": [
 					"Biffy"
 				],
-				"version": "1.0",
+				"version": "0.2",
 				"url": "https://homebrewery.naturalcrit.com/share/_Y4ukPTQfNS6",
 				"color": "f24666"
 			}
@@ -263,6 +263,152 @@
             		],
 			"entries": [
 				"At 14th level, you have earned enough of the yokai's favor that you may use an action and expend a spell slot to summon a Guardian Spirit. The guardian appears in an unoccupied space within 60 ft. of you. It has it's own initiative and it's own turns. On your turn, you may issue a command to the guardian (no action required) telling it what to do on it's next turn. If it has no command, it will attack any creature in reach which has attacked it or you. The guardian will persist for up to an hour. Once used, this feature may not be used again until after you complete a long rest."
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Guardian Spirit",
+			"source": "YokaiPatron",
+			"page": 2,
+			"size": "M",
+			"type": "celestial",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 60",
+				"average": 150
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 17,
+			"int": 16,
+			"wis": 10,
+			"cha": 17,
+			"save": {
+				"str": "+8",
+				"dex": "+7",
+				"con": "+7",
+				"cha": "+7"
+			},
+			"skill": {
+				"athletics": "+8",
+				"deception": "+7",
+				"persuasion": "+7",
+				"intimidation": "+7"
+			},
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"preNote": "Non-magical"
+				}
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Vigilant Guardian.",
+					"entries": [
+						"The guardian has advantage on all initiative rolls, and advantage on all Perception checks."
+					]
+				},
+				{
+					"name": "Life Transfer.",
+					"entries": [
+						"Whenever the guardian reduces a creature to 0 hit points with a melee attack, it gains 7 ({@dice 1d8 + 3}) hit points. If it is at maximum hit points, it instead gains 7 ({@dice 1d8 + 3}) temporary hit points."
+					]
+				},
+				{
+					"name": "Howl.",
+					"entries": [
+						"The guardian has disadvantage on all saving throws against becoming Frightened. If it fails a saving throw, instead of becoming Frightened, all creatures within 10 ft. of the guardian must make a DC14 Constitution saving throw, taking 12 ({@damage 3d8}) thunder damage on a failed save, or half that on a succesful one. The guardian then has disadvantage on all attacks which are not targeting the creature which caused the saving throw until the end of it's next turn."
+					]
+				},
+				{
+					"name": "Daemonblade.",
+					"entries": [
+						"The guardian's melee weapon attacks are magical. When it hits with a melee weapon, it doubles it's ability score modifier for determining damage (included in the attack)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack.",
+					"entries": [
+						"The guardian makes two Daemonblade attacks or one Twin-Bolted Crossbow attack."
+					]
+				},
+				{
+					"name": "Daemonblade",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Twin-Bolted Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Unarmed attack",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Ferocious Warrior.",
+					"entries": [
+						"Whenever the guardian deals damage with a melee weapon attack, it may use a bonus action to make an unarmed attack against the same creature ({@hit 8} to hit, 7 ({@damage 1d8 + 4}) bludgeoning damage on a hit)."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/5kf9MuZ.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/PALdOaT.png",
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S",
+				"T"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
 			]
 		}
 	]
