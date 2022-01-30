@@ -12,13 +12,13 @@
 				"convertedBy": [
 					"Biffy"
 				],
-				"version": "0.2",
+				"version": "0.3",
 				"url": "https://homebrewery.naturalcrit.com/share/_Y4ukPTQfNS6",
 				"color": "f24666"
 			}
 		],
 		"dateAdded": 1643375795,
-		"dateLastModified": 1643502846
+		"dateLastModified": 1643553388
 	},
 	"subclass": [
 		{
@@ -79,14 +79,14 @@
 			"name": "Onigiri Beam",
 			"prerequisite": [
 				{
-					"patron": "The Yokai Patron",
+					"patron": "The Yokai",
 					"spell": [
 						"eldritch blast"
 					]
 				}
 			],
 			"entries": [
-				"If you reduce a creature to 0 hit points with Eldritch Blast you gain a spirit biscuit. This is an item weighing 1/2 pound. As a bonus action, it can be consumed or fed to a creature. That creature then gains 3d4+3 hit points. At 10th level, this increases to 5d4+5 hit points."
+				"If you reduce a creature to 0 hit points with Eldritch Blast you gain a spirit biscuit. This is an item weighing 1/2 pound. As a bonus action, it can be consumed or fed to a creature. That creature then gains {@dice 3d4+3} hit points. At 10th level, this increases to 5d4+5 hit points."
 			],
 			"source": "YokaiPatron",
 			"featureType": [
@@ -103,7 +103,7 @@
 							"name": "Warlock"
 						}
 					},
-				"patron": "The Yokai Patron"
+				"patron": "The Yokai"
 				}
 			],
 			"entries": [
@@ -124,11 +124,13 @@
 							"name": "Warlock"
 						}
 					},
-					"patron": "The Yokai Patron"
+					"patron": "The Yokai"
 				}
 			],
 			"entries": [
-				"When you use the Summon Guardian Spirit feature it's unarmed attack now deals 2d8 + 4 magic bludgeoning damage. In addition, once per day the Guardian Spirit may take the multi-attack Action twice and when the Guardian reaches 0 hit points, you can use your reaction to spend a Warlock spell slot and restore it to full health."
+				"When you use the Summon Guardian Spirit feature it's unarmed attack now deals 2d8 + 4 magic bludgeoning damage.", 
+				"In addition, once per day the Guardian Spirit may take the multi-attack Action twice.",
+				"Once per day, when the Guardian Spirit reaches 0 hit points, you can use your reaction to spend a Warlock spell slot and restore it to full health."
 			],
 			"source": "YokaiPatron",
 			"featureType": [
@@ -222,7 +224,8 @@
             		],
 			"header": 2,
 			"entries": [
-				"At 6th level you begin to learn to balance the negative and positve sides of the spirits. You may use a bonus action to distract a creature who can see or hear you. You gain advantage on your next attack against this creature and the creatures next attack against you is made with disadvantage. This effect lasts until the end of your next turn. You can use this feature a number of times equal to your proficency bonus and you gain all your uses back after a long rest."
+				"At 6th level you begin to learn to balance the negative and positve sides of the spirits. You may use a bonus action to distract a creature who can see or hear you. You gain advantage on your next attack against this creature and the creatures next attack against you is made with disadvantage. This effect lasts until the end of your next turn.",
+				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 			]
 		},
 		{
@@ -242,7 +245,8 @@
             		],
 			"header": 2,
 			"entries": [
-				"At 10th level your patron places a ward against death on you. Once per day you gain the benefit of the {@spell Death Ward} spell. When the ward is triggered you can use your reaction to make a spell attack roll using your spell attack modifier to fire a beam of vengeful energy at an enemy within 120ft of you, doing {@damage 2d10+5} Force damage on a hit. If the attack hits you gain a number of temporary hit points equal to {@dice 1d10+@classes.warlock.levels} plus your warlock level, both the damage and temporary hit points increase with 1d10 at leve1 17."
+				"At 10th level your patron's magic wards you against death. Once per day you gain the benefit of the {@spell Death Ward} spell.",
+				"When the ward is triggered you can use your reaction to make a ranged spell attack using your spell attack modifier to fire a beam of vengeful energy at an enemy within 120ft of you, doing {@damage 2d10+5} force damage on a hit. If the attack hits you gain a number of temporary hit points equal to {@dice 1d10} plus your warlock level, the temporary hit points increase with 1d10 at leve1 17."
 			]
 		},
 		{
