@@ -12,13 +12,13 @@
 				"convertedBy": [
 					"Biffy"
 				],
-				"version": "0.41",
+				"version": "0.42",
 				"url": "https://homebrewery.naturalcrit.com/share/_Y4ukPTQfNS6",
 				"color": "f24666"
 			}
 		],
 		"dateAdded": 1643375795,
-		"dateLastModified": 1643562165
+		"dateLastModified": 1643563048
 	},
 	"subclass": [
 		{
@@ -424,8 +424,8 @@
           			  "rarity": "none",
           			  "weight": 0.5,
          			   "entries": [
-            				   "If you reduce a creature to 0 hit points with Eldritch Blast you gain a spirit biscuit. This is an item weighing 1/2 pound. As a bonus action, it can be consumed or fed to a creature. That creature then gains 3d4+3 hit points.",
-             				   "At 10th level, this increases to 5d4+5 hit points."
+            				   "If you reduce a creature to 0 hit points with Eldritch Blast you gain a spirit biscuit. This is an item weighing 1/2 pound. As a bonus action, it can be consumed or fed to a creature. That creature then gains {@dice 3d4+3} hit points.",
+             				   "At 10th level, this increases to {@dice 5d4+5} hit points."
 				   ]
 			}
 		]
